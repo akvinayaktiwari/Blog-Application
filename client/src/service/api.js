@@ -3,7 +3,7 @@ import axios from 'axios';
 import { API_NOTIFICATION_MESSEGE ,SERVICE_URL} from '../constants/config';
 import { getAccessToken,getType } from '../utils/common-utils';
 
-const API_URL= 'http://localhost:8000';
+const API_URL= 'blog-application-server-nine.vercel.app';
 
 const axiosInstance=axios.create({
     baseURL:API_URL,
