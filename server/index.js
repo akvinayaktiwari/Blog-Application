@@ -24,7 +24,7 @@ app.listen(PORT,()=>{
     console.log("running on "+PORT)
 })
 
-const USERNAME=process.env.DB_USERNAME;
-const PASSWORD=process.env.DB_PASSWORD;
+const USERNAME="user";
+const PASSWORD="pass123";
 
-Connection(user,pass123);
+Connection(USERNAME,PASSWORD);
